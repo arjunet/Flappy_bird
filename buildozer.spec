@@ -37,7 +37,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3, pygame==2.1.0.dev6
+requirements = python3==3.10.12,kivy==2.3.0,hostpython3==3.10.12,pyjnius==1.5.0, pygame
 
 # (str) Presplash of the application
 presplash.filename = %(source.dir)s/images/icon.png 
