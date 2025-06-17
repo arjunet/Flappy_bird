@@ -37,7 +37,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3, pygame
+requirements = python3, pygame==2.1.0.dev6
 
 # (str) Presplash of the application
 presplash.filename = %(source.dir)s/images/icon.png 
@@ -106,7 +106,7 @@ android.api = 35
 #android.sdk = 20
 
 # (str) Android NDK version to use
-android.ndk = 25
+android.ndk = 23b
 
 # (int) Android NDK API to use. This is the minimum API your app will support, it should usually match android.minapi.
 #android.ndk_api = 21
