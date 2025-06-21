@@ -9,8 +9,7 @@ on:
       - main
     paths-ignore:
       - '**/README.md'
-      - '**/main.py'
-      - '**/build.yml'
+      
   pull_request:
     branches:
       - main
