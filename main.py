@@ -32,9 +32,9 @@ font = pygame.font.SysFont(None, 40)
 bird_x = 50
 bird_radius = 20
 gravity = 0.5
-flap_strength = -10
+flap_strength = -7
 pipe_width = 60
-pipe_gap = 150
+pipe_gap = 238
 pipe_velocity = 3
 
 def draw_bird(y):
